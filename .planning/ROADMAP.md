@@ -13,7 +13,7 @@ Redesign em três fases da landing page estática da ORA Conceito. A fase 1 tran
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Hero Cinematográfico** - Substituir fundo do hero por foto de ambiente com parallax e animações de entrada (completed 2026-04-01)
-- [ ] **Phase 2: Seções de Produto e Ambiente** - Refatorar grid da Coleção e seção Ambientes para padrão editorial dark
+- [x] **Phase 2: Seções de Produto e Ambiente** - Refatorar grid da Coleção e seção Ambientes para padrão editorial dark (completed 2026-04-01)
 - [ ] **Phase 3: Tipografia e Responsividade** - Unificar hierarquia tipográfica e garantir experiência mobile completa
 
 ## Phase Details
@@ -70,5 +70,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Hero Cinematográfico | 2/2 | Complete    | 2026-04-01 |
-| 2. Seções de Produto e Ambiente | 1/2 | In Progress|  |
+| 2. Seções de Produto e Ambiente | 2/2 | Complete   | 2026-04-01 |
 | 3. Tipografia e Responsividade | 0/TBD | Not started | - |

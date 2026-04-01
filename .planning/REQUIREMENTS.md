@@ -22,9 +22,9 @@
 
 ### Ambientes
 
-- [ ] **AMB-01**: Seção Destaques/Ambientes usa fotos que mostram produtos em contexto
-- [ ] **AMB-02**: Cards de ambiente com overlay gradient + título elegante ao hover
-- [ ] **AMB-03**: Proporção das fotos consistente e bem aproveitada
+- [x] **AMB-01**: Seção Destaques/Ambientes usa fotos que mostram produtos em contexto
+- [x] **AMB-02**: Cards de ambiente com overlay gradient + título elegante ao hover
+- [x] **AMB-03**: Proporção das fotos consistente e bem aproveitada
 
 ### Tipografia & Espaçamentos
 
@@ -75,9 +75,9 @@
 | COL-02 | Phase 2 | Complete |
 | COL-03 | Phase 2 | Complete |
 | COL-04 | Phase 2 | Complete |
-| AMB-01 | Phase 2 | Pending |
-| AMB-02 | Phase 2 | Pending |
-| AMB-03 | Phase 2 | Pending |
+| AMB-01 | Phase 2 | Complete |
+| AMB-02 | Phase 2 | Complete |
+| AMB-03 | Phase 2 | Complete |
 | TIP-01 | Phase 3 | Pending |
 | TIP-02 | Phase 3 | Pending |
 | TIP-03 | Phase 3 | Pending |

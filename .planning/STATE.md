@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 2 context gathered
-last_updated: "2026-04-01T22:38:23.687Z"
+stopped_at: Completed 02-secoes-de-produto-e-ambiente-02-01-PLAN.md
+last_updated: "2026-04-01T22:58:03.667Z"
 last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
 progress:
   total_phases: 3
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
   percent: 50
 ---
 
@@ -52,6 +52,7 @@ Progress: [█████░░░░░] 50%
 *Updated after each plan completion*
 | Phase 01-hero-cinematografico P01 | 8min | 2 tasks | 1 files |
 | Phase 01-hero-cinematografico P02 | 4min | 1 tasks | 1 files |
+| Phase 02-secoes-de-produto-e-ambiente P01 | 8min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -68,6 +69,9 @@ Recent decisions affecting current work:
 - [Phase 01-hero-cinematografico]: Drop-shadow duplo na logo: halo dourado ampliado + shadow escuro de separacao
 - [Phase 01-hero-cinematografico]: Parallax fator 0.4: sutil e perceptivel sem exagero
 - [Phase 01-hero-cinematografico]: isTouch via matchMedia(hover:none): confiavel para iOS Safari sem User-Agent sniffing
+- [Phase 02-secoes-de-produto-e-ambiente]: object-fit: cover substitui contain — produtos preenchem o card com respiro sutil de 14px
+- [Phase 02-secoes-de-produto-e-ambiente]: mix-blend-mode: multiply removido — sobre fundo #0E0E0E apagava as imagens
+- [Phase 02-secoes-de-produto-e-ambiente]: @media (hover: none) CSS-only para labels touch da Coleção sempre visíveis
 
 ### Pending Todos
 
@@ -80,6 +84,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T22:38:23.680Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-secoes-de-produto-e-ambiente/02-CONTEXT.md
+Last session: 2026-04-01T22:58:03.661Z
+Stopped at: Completed 02-secoes-de-produto-e-ambiente-02-01-PLAN.md
+Resume file: None

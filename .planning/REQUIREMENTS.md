@@ -15,10 +15,10 @@
 
 ### Coleção
 
-- [ ] **COL-01**: Grid editorial de produtos com fundo escuro (#0E0E0E ou #181818)
-- [ ] **COL-02**: Fotos de produto usam `object-fit: cover` (sem padding excessivo) — produtos ocupam o espaço
-- [ ] **COL-03**: Hover revela label/nome do produto com transição suave
-- [ ] **COL-04**: Layout responsivo mantém hierarquia visual no mobile
+- [x] **COL-01**: Grid editorial de produtos com fundo escuro (#0E0E0E ou #181818)
+- [x] **COL-02**: Fotos de produto usam `object-fit: cover` (sem padding excessivo) — produtos ocupam o espaço
+- [x] **COL-03**: Hover revela label/nome do produto com transição suave
+- [x] **COL-04**: Layout responsivo mantém hierarquia visual no mobile
 
 ### Ambientes
 
@@ -71,10 +71,10 @@
 | HERO-03 | Phase 1 | Complete |
 | HERO-04 | Phase 1 | Complete |
 | HERO-05 | Phase 1 | Complete |
-| COL-01 | Phase 2 | Pending |
-| COL-02 | Phase 2 | Pending |
-| COL-03 | Phase 2 | Pending |
-| COL-04 | Phase 2 | Pending |
+| COL-01 | Phase 2 | Complete |
+| COL-02 | Phase 2 | Complete |
+| COL-03 | Phase 2 | Complete |
+| COL-04 | Phase 2 | Complete |
 | AMB-01 | Phase 2 | Pending |
 | AMB-02 | Phase 2 | Pending |
 | AMB-03 | Phase 2 | Pending |

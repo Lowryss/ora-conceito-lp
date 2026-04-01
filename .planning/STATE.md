@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-hero-cinematografico plan 01 (hero background + drop-shadow)
-last_updated: "2026-04-01T21:54:02.481Z"
+stopped_at: Completed 01-hero-cinematografico plan 02 (parallax vanilla JS)
+last_updated: "2026-04-01T21:56:18.637Z"
 last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
 progress:
   total_phases: 3
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 50
 ---
 
@@ -51,6 +51,7 @@ Progress: [█████░░░░░] 50%
 
 *Updated after each plan completion*
 | Phase 01-hero-cinematografico P01 | 8min | 2 tasks | 1 files |
+| Phase 01-hero-cinematografico P02 | 4min | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,8 @@ Recent decisions affecting current work:
 - [Phase 01-hero-cinematografico]: Hero fundo: top/bottom -20% para margens de parallax seguras sem expor bordas
 - [Phase 01-hero-cinematografico]: Overlay hero topo .55 (era .4) — necessario para legibilidade sobre foto colorida
 - [Phase 01-hero-cinematografico]: Drop-shadow duplo na logo: halo dourado ampliado + shadow escuro de separacao
+- [Phase 01-hero-cinematografico]: Parallax fator 0.4: sutil e perceptivel sem exagero
+- [Phase 01-hero-cinematografico]: isTouch via matchMedia(hover:none): confiavel para iOS Safari sem User-Agent sniffing
 
 ### Pending Todos
 
@@ -77,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T21:54:02.476Z
-Stopped at: Completed 01-hero-cinematografico plan 01 (hero background + drop-shadow)
+Last session: 2026-04-01T21:56:18.631Z
+Stopped at: Completed 01-hero-cinematografico plan 02 (parallax vanilla JS)
 Resume file: None

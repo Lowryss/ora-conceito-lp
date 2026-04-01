@@ -94,4 +94,4 @@
 
 ---
 *Requirements defined: 2026-04-01*
-*Last updated: 2026-04-01 após definição inicial*
+*Last updated: 2026-04-01 — Traceability confirmada após criação do roadmap*

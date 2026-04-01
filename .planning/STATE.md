@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-hero-cinematografico plan 02 (parallax vanilla JS)
-last_updated: "2026-04-01T22:02:55.679Z"
+stopped_at: Phase 2 context gathered
+last_updated: "2026-04-01T22:38:23.687Z"
 last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
 progress:
   total_phases: 3
@@ -80,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T21:56:18.631Z
-Stopped at: Completed 01-hero-cinematografico plan 02 (parallax vanilla JS)
-Resume file: None
+Last session: 2026-04-01T22:38:23.680Z
+Stopped at: Phase 2 context gathered
+Resume file: .planning/phases/02-secoes-de-produto-e-ambiente/02-CONTEXT.md

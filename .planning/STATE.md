@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Checkpoint 02-02 Task 2 — aguardando verificação visual Fase 2
-last_updated: "2026-04-01T23:00:26.507Z"
+stopped_at: Completed 02-secoes-de-produto-e-ambiente/02-02-PLAN.md
+last_updated: "2026-04-01T23:03:35.310Z"
 last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
 progress:
   total_phases: 3
@@ -54,6 +54,7 @@ Progress: [█████░░░░░] 50%
 | Phase 01-hero-cinematografico P02 | 4min | 1 tasks | 1 files |
 | Phase 02-secoes-de-produto-e-ambiente P01 | 8min | 2 tasks | 1 files |
 | Phase 02-secoes-de-produto-e-ambiente P02 | 1min | 1 tasks | 1 files |
+| Phase 02-secoes-de-produto-e-ambiente P02 | 5min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -75,6 +76,9 @@ Recent decisions affecting current work:
 - [Phase 02-secoes-de-produto-e-ambiente]: @media (hover: none) CSS-only para labels touch da Coleção sempre visíveis
 - [Phase 02-secoes-de-produto-e-ambiente]: .dest-item img: object-fit cover + padding 14px aplicado aos Ambientes, mesma correção editorial da Coleção
 - [Phase 02-secoes-de-produto-e-ambiente]: Fotos Ambientes: sf-prod-02/03/04 substituem sf-buffet/foto-10/sf-estante — produtos em contexto editorial com tags diferenciadas
+- [Phase 02-secoes-de-produto-e-ambiente]: .dest-item img: object-fit cover + padding 14px — padrão editorial dos Ambientes consistente com a Coleção
+- [Phase 02-secoes-de-produto-e-ambiente]: Fotos Ambientes: sf-prod-02/03/04 substituem sf-buffet/foto-10/sf-estante — produtos em contexto editorial
+- [Phase 02-secoes-de-produto-e-ambiente]: Tags dos cards Ambientes diferenciadas (Sala de Jantar / Escritório / Sala de Estar) para não repetir a Coleção
 
 ### Pending Todos
 
@@ -87,6 +91,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T23:00:13.540Z
-Stopped at: Checkpoint 02-02 Task 2 — aguardando verificação visual Fase 2
+Last session: 2026-04-01T23:03:35.305Z
+Stopped at: Completed 02-secoes-de-produto-e-ambiente/02-02-PLAN.md
 Resume file: None

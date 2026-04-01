@@ -1,71 +1,110 @@
 ---
 phase: 02-secoes-de-produto-e-ambiente
 plan: "02"
-subsystem: ambientes-section
-tags: [css, object-fit, images, cards, ambientes]
-dependency_graph:
-  requires: [02-01]
-  provides: [AMB-01, AMB-02, AMB-03]
-  affects: [index.html]
-tech_stack:
+subsystem: ui
+tags: [css, object-fit, ambientes, destaques, fotos, cover]
+
+# Dependency graph
+requires:
+  - phase: 02-secoes-de-produto-e-ambiente
+    plan: 01
+    provides: CSS .pc img com object-fit:cover + padding:14px estabelecido como padrão editorial
+provides:
+  - CSS .dest-item img com object-fit:cover + padding:14px para seção Ambientes
+  - Fotos sf-prod-02/03/04 nos 3 cards de Ambientes com títulos premium
+  - Verificação visual completa da Fase 2 aprovada pelo usuário
+affects:
+  - fase seguinte (Ambientes com padrão editorial dark consolidado)
+
+# Tech tracking
+tech-stack:
   added: []
-  patterns: [object-fit-cover, editorial-dark-cards]
-key_files:
+  patterns:
+    - "object-fit: cover + padding: 14px como padrão editorial uniforme para todos os cards de produto"
+    - "Fotos de produto em contexto (sf-prod-*) ao invés de fotos de ambiente genéricas"
+
+key-files:
   created: []
   modified:
     - index.html
-decisions:
-  - ".dest-item img: object-fit cover + padding 14px — mesma correção da Coleção aplicada aos Ambientes"
-  - "Fotos sf-prod-02/03/04 substituem sf-buffet/foto-10/sf-estante — produtos em contexto editorial"
-  - "Tags diferenciadas por ambiente (Sala de Jantar / Escritório / Sala de Estar) para evitar repetição com Coleção"
-metrics:
-  duration: "1min"
-  completed_date: "2026-04-01"
-  tasks_completed: 1
-  tasks_total: 2
-  files_modified: 1
+
+key-decisions:
+  - ".dest-item img: object-fit cover + padding 14px aplicado aos Ambientes, mesma correção editorial da Coleção"
+  - "Fotos Ambientes: sf-prod-02/03/04 substituem sf-buffet/foto-10/sf-estante — produtos em contexto editorial com tags diferenciadas"
+  - "Tags dos cards: Sala de Jantar / Escritório / Sala de Estar — cada card com contexto distinto da Coleção"
+
+patterns-established:
+  - "Padrão editorial dark consolidado: object-fit cover + padding 14px em todos os cards de produto da LP"
+
+requirements-completed: [AMB-01, AMB-02, AMB-03]
+
+# Metrics
+duration: 5min
+completed: 2026-04-01
 ---
 
-# Phase 02 Plan 02: CSS Ambientes cover + troca de fotos + títulos
+# Phase 02 Plan 02: Seção Ambientes — object-fit cover + Fotos e Títulos Summary
 
-**One-liner:** object-fit cover com padding 14px nos cards Ambientes + sf-prod-02/03/04 substituindo fotos antigas com títulos e tags premium diferenciados.
+**Seção Ambientes (#destaques) refatorada com object-fit cover, 3 fotos substituídas por sf-prod-02/03/04, títulos premium com contextos diferenciados, e verificação visual da Fase 2 aprovada**
 
-## What Was Built
+## Performance
 
-Task 1 de 2 concluída. A seção Ambientes (#destaques) recebeu três atualizações:
+- **Duration:** 5 min
+- **Started:** 2026-04-01T23:00:00Z
+- **Completed:** 2026-04-01T23:05:00Z
+- **Tasks:** 2
+- **Files modified:** 1
 
-1. **CSS `.dest-item img`** (linha 290-295): `object-fit: contain` substituído por `object-fit: cover`; padding reduzido de `28px 20px` para `14px` — mesma correção editorial aplicada à Coleção no plano 02-01.
+## Accomplishments
 
-2. **Fotos dos 3 cards** trocadas de imagens de ambiente antigas para fotos de produto em contexto:
-   - Card 1: `sf-buffet.png` → `sf-prod-02.png`
-   - Card 2: `foto-10.png` → `sf-prod-03.png`
-   - Card 3: `sf-estante.png` → `sf-prod-04.png`
+- `.dest-item img` atualizado de `object-fit: contain; padding: 28px 20px` para `object-fit: cover; padding: 14px` — fotos dos Ambientes agora preenchem os cards com proporção 4/5 consistente
+- 3 fotos trocadas: sf-buffet → sf-prod-02, foto-10 → sf-prod-03, sf-estante → sf-prod-04 — produtos em contexto editorial escuro
+- Títulos e tags dos cards atualizados com contextos diferenciados (Sala de Jantar / Escritório / Sala de Estar) para não repetir a Coleção
+- Verificação visual completa da Fase 2 aprovada pelo usuário — Coleção e Ambientes no padrão editorial dark
 
-3. **Títulos e tags** atualizados com nomenclatura premium e ambientes diferenciados:
-   - Sala de Jantar / Aparador Contemporâneo
-   - Escritório / Poltrona Elegante
-   - Sala de Estar / Mesa Lateral Refinada
+## Task Commits
 
-**Task 2 (checkpoint:human-verify):** Aguardando verificação visual pelo usuário.
+Cada task foi commitada atomicamente:
 
-## Tasks Completed
+1. **Task 1: CSS Ambientes (cover) + trocar fotos + atualizar títulos** - `1ca4099` (feat)
+2. **Task 2: Verificação visual completa da Fase 2** - checkpoint aprovado pelo usuário (sem commit adicional)
 
-| # | Name | Commit | Status |
-|---|------|--------|--------|
-| 1 | CSS Ambientes (cover) + trocar fotos + atualizar títulos | 1ca4099 | Done |
-| 2 | Verificação visual completa da Fase 2 | - | Awaiting checkpoint |
+## Files Created/Modified
 
-## Deviations from Plan
-
-None — plano executado exatamente como especificado.
+- `index.html` — CSS `.dest-item img` (object-fit, padding), src dos 3 imgs de Ambientes, atributos alt, tags de categoria e títulos dos cards
 
 ## Decisions Made
 
-- `.dest-item img` recebe `object-fit: cover` e `padding: 14px` — padrão editorial consistente com `.pc img` (Coleção)
-- Tags dos cards de Ambientes diferenciadas por cômodo para não repetir "Sala de Estar" em todos
-- Títulos seguem padrão [Nome da Peça] + adjetivo premium (Contemporâneo, Elegante, Refinada)
+- `object-fit: cover` com `padding: 14px` uniforme aplicado ao `.dest-item img` — mesmo padrão editorial estabelecido no plano 02-01 para a Coleção, garantindo consistência visual entre as duas seções
+- Fotos sf-prod-* escolhidas para os Ambientes: mostram produtos em contexto de uso real ao invés de fotos genéricas de ambientes que não comunicavam o produto
+- Tags diferenciadas por card (Sala de Jantar, Escritório, Sala de Estar) para contextualizar cada peça de forma distinta da Coleção
 
-## Self-Check
+## Deviations from Plan
 
-Arquivo modificado: index.html — verificado via Read após edição.
-Commit 1ca4099 presente no git log.
+None - plano executado exatamente como especificado.
+
+## Issues Encountered
+
+None.
+
+## User Setup Required
+
+None - nenhuma configuração de serviço externo necessária.
+
+## Next Phase Readiness
+
+- Fase 2 completa: Coleção e Ambientes com padrão editorial dark consolidado
+- Ambos os grids com object-fit cover + padding 14px uniforme
+- Labels touch da Coleção visíveis (@media hover:none) e overlays dos Ambientes sempre visíveis
+- Hero parallax e animações reveal sem regressões (verificado pelo usuário)
+- Fase 3 pode prosseguir com LP visual e editorial consistente
+
+## Self-Check: PASSED
+
+- index.html modificado: verificado via commit 1ca4099
+- Task 2 (verificação visual): aprovada pelo usuário com "aprovado"
+- Requisitos AMB-01, AMB-02, AMB-03: todos atendidos
+
+---
+*Phase: 02-secoes-de-produto-e-ambiente*
+*Completed: 2026-04-01*

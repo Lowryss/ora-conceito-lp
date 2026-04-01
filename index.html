@@ -928,6 +928,24 @@
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); observer.unobserve(e.target); } });
   }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
   revealEls.forEach(el => observer.observe(el));
+
+  // Hero parallax
+  const heroBg = document.querySelector('.hero-bg');
+  const noMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const isTouch  = window.matchMedia('(hover: none)');
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        if (!noMotion.matches && !isTouch.matches) {
+          heroBg.style.transform = 'translateY(' + (window.scrollY * 0.4) + 'px)';
+        }
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
 </script>
 </body>
 </html>

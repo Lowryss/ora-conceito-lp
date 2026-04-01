@@ -44,7 +44,11 @@ Plans:
   3. A seção Ambientes exibe fotos de produtos em contexto de uso, com proporções consistentes entre cards
   4. Ao hover nos cards de ambiente, um overlay gradient e título aparecem com transição refinada
   5. O grid da Coleção colapsa corretamente para 1-2 colunas no mobile sem quebrar a hierarquia visual
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — CSS Coleção: object-fit cover + remover mix-blend-mode + labels touch
+- [ ] 02-02-PLAN.md — CSS Ambientes: object-fit cover + trocar fotos sf-prod-02/03/04 + verificação visual fase 2
 
 ### Phase 3: Tipografia e Responsividade
 **Goal**: A experiência é consistente e premium em desktop e mobile — hierarquia clara, textos legíveis, navegação funcional em qualquer tela
@@ -66,5 +70,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Hero Cinematográfico | 2/2 | Complete    | 2026-04-01 |
-| 2. Seções de Produto e Ambiente | 0/TBD | Not started | - |
+| 2. Seções de Produto e Ambiente | 0/2 | Not started | - |
 | 3. Tipografia e Responsividade | 0/TBD | Not started | - |

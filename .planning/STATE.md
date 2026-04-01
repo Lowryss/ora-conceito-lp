@@ -4,7 +4,7 @@ milestone: v1.0
 milestone_name: milestone
 status: planning
 stopped_at: Completed 01-hero-cinematografico plan 02 (parallax vanilla JS)
-last_updated: "2026-04-01T21:56:18.637Z"
+last_updated: "2026-04-01T22:02:55.679Z"
 last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
 progress:
   total_phases: 3

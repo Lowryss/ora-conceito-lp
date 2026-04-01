@@ -7,9 +7,9 @@
 
 ### Hero
 
-- [ ] **HERO-01**: Hero exibe foto de ambiente de fundo com efeito parallax ao scroll
-- [ ] **HERO-02**: Overlay escuro graduado mantém legibilidade do texto sobre a foto
-- [ ] **HERO-03**: Logo dourada centralizada com drop-shadow sutil
+- [x] **HERO-01**: Hero exibe foto de ambiente de fundo com efeito parallax ao scroll
+- [x] **HERO-02**: Overlay escuro graduado mantém legibilidade do texto sobre a foto
+- [x] **HERO-03**: Logo dourada centralizada com drop-shadow sutil
 - [ ] **HERO-04**: Animações de entrada suaves (fadeUp) preservadas
 - [ ] **HERO-05**: Indicador de scroll animado visível e elegante
 
@@ -66,9 +66,9 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HERO-01 | Phase 1 | Pending |
-| HERO-02 | Phase 1 | Pending |
-| HERO-03 | Phase 1 | Pending |
+| HERO-01 | Phase 1 | Complete |
+| HERO-02 | Phase 1 | Complete |
+| HERO-03 | Phase 1 | Complete |
 | HERO-04 | Phase 1 | Pending |
 | HERO-05 | Phase 1 | Pending |
 | COL-01 | Phase 2 | Pending |

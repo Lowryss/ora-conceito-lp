@@ -1,3 +1,19 @@
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+status: planning
+stopped_at: Completed 01-hero-cinematografico plan 01 (hero background + drop-shadow)
+last_updated: "2026-04-01T21:54:02.481Z"
+last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
+progress:
+  total_phases: 3
+  completed_phases: 0
+  total_plans: 2
+  completed_plans: 1
+  percent: 50
+---
+
 # Project State
 
 ## Project Reference
@@ -14,7 +30,7 @@ Plan: 0 of TBD in current phase
 Status: Ready to plan
 Last activity: 2026-04-01 — Roadmap criado, projeto inicializado
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [█████░░░░░] 50%
 
 ## Performance Metrics
 
@@ -34,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: -
 
 *Updated after each plan completion*
+| Phase 01-hero-cinematografico P01 | 8min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -45,6 +62,9 @@ Recent decisions affecting current work:
 - Parallax no hero via vanilla JS (sem frameworks)
 - Produto centralizado no escuro — estilo editorial studio
 - Manter identidade escuro/dourado (#0E0E0E + #C9A96E)
+- [Phase 01-hero-cinematografico]: Hero fundo: top/bottom -20% para margens de parallax seguras sem expor bordas
+- [Phase 01-hero-cinematografico]: Overlay hero topo .55 (era .4) — necessario para legibilidade sobre foto colorida
+- [Phase 01-hero-cinematografico]: Drop-shadow duplo na logo: halo dourado ampliado + shadow escuro de separacao
 
 ### Pending Todos
 
@@ -57,6 +77,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01
-Stopped at: Roadmap e STATE.md criados — pronto para plan-phase 1
+Last session: 2026-04-01T21:54:02.476Z
+Stopped at: Completed 01-hero-cinematografico plan 01 (hero background + drop-shadow)
 Resume file: None

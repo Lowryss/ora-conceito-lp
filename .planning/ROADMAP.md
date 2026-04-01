@@ -28,7 +28,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. A logo dourada está centralizada com drop-shadow visível e sutil
   4. Os elementos do hero entram na tela com fadeUp suave ao carregar a página
   5. Um indicador de scroll animado é visível na parte inferior do hero
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Substituir background do hero (foto-21.png + overlay recalibrado + drop-shadow da logo)
+- [ ] 01-02-PLAN.md — Script de parallax vanilla + verificação visual completa do hero
 
 ### Phase 2: Seções de Produto e Ambiente
 **Goal**: Coleção e Ambientes comunicam curadoria e sofisticação — produtos ocupam o espaço corretamente, ambiente conta uma história visual
@@ -61,6 +65,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Hero Cinematográfico | 0/TBD | Not started | - |
+| 1. Hero Cinematográfico | 0/2 | Not started | - |
 | 2. Seções de Produto e Ambiente | 0/TBD | Not started | - |
 | 3. Tipografia e Responsividade | 0/TBD | Not started | - |

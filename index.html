@@ -479,11 +479,73 @@
     .reveal.in { opacity:1; transform:translateY(0); }
     .d1{transition-delay:.1s} .d2{transition-delay:.2s} .d3{transition-delay:.3s} .d4{transition-delay:.4s} .d5{transition-delay:.5s}
 
+    /* ─── HAMBÚRGUER ─── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      z-index: 310;
+      position: relative;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 26px;
+      height: 1.5px;
+      background: var(--dourado);
+      transition: transform .3s ease, opacity .3s ease;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+    /* ─── OVERLAY MENU ─── */
+    .nav-overlay {
+      position: fixed;
+      inset: 0;
+      background: #0E0E0E;
+      z-index: 300;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .35s ease;
+    }
+    .nav-overlay.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .nav-overlay-links {
+      list-style: none;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+    .nav-overlay-links a {
+      font-family: var(--serif);
+      font-size: clamp(28px, 6vw, 48px);
+      font-weight: 300;
+      letter-spacing: 4px;
+      color: var(--offwhite);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color .3s;
+    }
+    .nav-overlay-links a:hover { color: var(--dourado); }
+
     /* ─── RESPONSIVE ─── */
     @media(max-width:1200px){
       nav{padding:20px 32px}
       nav.scrolled{padding:14px 32px}
       .nav-links{display:none}
+      .nav-hamburger { display: flex; }
+      .btn-nav { display: none; }
       #sobre{grid-template-columns:1fr}
       .sobre-visual{min-height:460px}
       .sobre-txt{padding:72px 36px}
@@ -546,6 +608,11 @@
     <li><a href="#contato">Contato</a></li>
   </ul>
   <a href="#contato" class="btn-nav">Fale Conosco</a>
+  <button class="nav-hamburger" aria-label="Abrir menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </nav>
 
 <!-- HERO -->
@@ -927,6 +994,15 @@
   </div>
 </footer>
 
+<div class="nav-overlay" id="navOverlay" aria-hidden="true">
+  <ul class="nav-overlay-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#colecao">Coleção</a></li>
+    <li><a href="#destaques">Ambientes</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</div>
+
 <script>
   // Nav scroll
   const nav = document.getElementById('nav');
@@ -958,6 +1034,42 @@
       ticking = true;
     }
   }, { passive: true });
+
+  // Hambúrguer menu
+  const hamburger = document.querySelector('.nav-hamburger');
+  const navOverlay = document.getElementById('navOverlay');
+  const overlayLinks = navOverlay.querySelectorAll('a');
+
+  function openMenu() {
+    hamburger.classList.add('open');
+    navOverlay.classList.add('open');
+    hamburger.setAttribute('aria-expanded', 'true');
+    navOverlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('open');
+    navOverlay.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    navOverlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.contains('open') ? closeMenu() : openMenu();
+  });
+
+  overlayLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector(link.getAttribute('href'));
+      closeMenu();
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }, 350);
+    });
+  });
 </script>
 </body>
 </html>

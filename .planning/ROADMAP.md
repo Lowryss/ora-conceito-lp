@@ -60,7 +60,12 @@ Plans:
   3. No mobile, o parallax do hero não quebra — degrada graciosamente para fundo fixo ou scroll normal
   4. O menu hambúrguer abre e fecha corretamente no mobile e permite navegação entre seções
   5. Formulário de contato é totalmente usável no mobile sem necessidade de zoom
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — CSS tipografia: body text 13px, line-height 1.9, respiração visual
+- [ ] 03-02-PLAN.md — CSS mobile: hero parallax neutralizado, 100svh, font-size 14px mínimo
+- [ ] 03-03-PLAN.md — Menu hambúrguer (HTML+CSS+JS) + iOS zoom fix nos inputs
 
 ## Progress
 
@@ -71,4 +76,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Hero Cinematográfico | 2/2 | Complete    | 2026-04-01 |
 | 2. Seções de Produto e Ambiente | 2/2 | Complete   | 2026-04-01 |
-| 3. Tipografia e Responsividade | 0/TBD | Not started | - |
+| 3. Tipografia e Responsividade | 0/3 | Not started | - |

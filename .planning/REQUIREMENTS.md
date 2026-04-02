@@ -28,9 +28,9 @@
 
 ### Tipografia & Espaçamentos
 
-- [ ] **TIP-01**: Hierarquia tipográfica clara — headings grandes, body legível (mín. 14px)
-- [ ] **TIP-02**: Letter-spacing e line-height consistentes nas seções
-- [ ] **TIP-03**: Padding/margin das seções revisados para respiração visual adequada
+- [x] **TIP-01**: Hierarquia tipográfica clara — headings grandes, body legível (mín. 14px)
+- [x] **TIP-02**: Letter-spacing e line-height consistentes nas seções
+- [x] **TIP-03**: Padding/margin das seções revisados para respiração visual adequada
 
 ### Mobile Responsivo
 
@@ -78,9 +78,9 @@
 | AMB-01 | Phase 2 | Complete |
 | AMB-02 | Phase 2 | Complete |
 | AMB-03 | Phase 2 | Complete |
-| TIP-01 | Phase 3 | Pending |
-| TIP-02 | Phase 3 | Pending |
-| TIP-03 | Phase 3 | Pending |
+| TIP-01 | Phase 3 | Complete |
+| TIP-02 | Phase 3 | Complete |
+| TIP-03 | Phase 3 | Complete |
 | MOB-01 | Phase 3 | Pending |
 | MOB-02 | Phase 3 | Pending |
 | MOB-03 | Phase 3 | Pending |

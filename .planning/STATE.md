@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-tipografia-e-responsividade-01-PLAN.md
-last_updated: "2026-04-02T02:14:13.634Z"
+stopped_at: Completed 03-tipografia-e-responsividade-02-PLAN.md
+last_updated: "2026-04-02T02:16:43.047Z"
 last_activity: 2026-04-01 — Roadmap criado, projeto inicializado
 progress:
   total_phases: 3
   completed_phases: 2
   total_plans: 7
-  completed_plans: 5
+  completed_plans: 6
   percent: 50
 ---
 
@@ -56,6 +56,7 @@ Progress: [█████░░░░░] 50%
 | Phase 02-secoes-de-produto-e-ambiente P02 | 1min | 1 tasks | 1 files |
 | Phase 02-secoes-de-produto-e-ambiente P02 | 5min | 2 tasks | 1 files |
 | Phase 03-tipografia-e-responsividade P01 | 8min | 2 tasks | 1 files |
+| Phase 03-tipografia-e-responsividade P02 | 2min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,8 @@ Recent decisions affecting current work:
 - [Phase 02-secoes-de-produto-e-ambiente]: Tags dos cards Ambientes diferenciadas (Sala de Jantar / Escritório / Sala de Estar) para não repetir a Coleção
 - [Phase 03-tipografia-e-responsividade]: font-size 13px e line-height 1.9 como padrão único de body text (era 11.5px–13.5px / 1.85–2.1)
 - [Phase 03-tipografia-e-responsividade]: Task 2 inspeção visual: nenhum ajuste de padding necessário — seções já têm espaçamento consistente de 120px
+- [Phase 03-tipografia-e-responsividade]: @media (hover: none) para .hero-bg — critério de parada do parallax é touch detection, não breakpoint
+- [Phase 03-tipografia-e-responsividade]: 100svh com fallback implícito via CSS cascade — min-height reduzido para 580px no mobile (iPhone SE)
 
 ### Pending Todos
 
@@ -94,6 +97,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-02T02:14:13.628Z
-Stopped at: Completed 03-tipografia-e-responsividade-01-PLAN.md
+Last session: 2026-04-02T02:16:43.042Z
+Stopped at: Completed 03-tipografia-e-responsividade-02-PLAN.md
 Resume file: None

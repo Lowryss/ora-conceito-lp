@@ -76,4 +76,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Hero Cinematográfico | 2/2 | Complete    | 2026-04-01 |
 | 2. Seções de Produto e Ambiente | 2/2 | Complete   | 2026-04-01 |
-| 3. Tipografia e Responsividade | 1/3 | In Progress|  |
+| 3. Tipografia e Responsividade | 2/3 | In Progress|  |

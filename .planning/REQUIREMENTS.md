@@ -34,11 +34,11 @@
 
 ### Mobile Responsivo
 
-- [ ] **MOB-01**: Hero funciona corretamente no mobile (parallax degradado para fixed ou scroll normal)
-- [ ] **MOB-02**: Grid de produtos adaptado para 1-2 colunas no mobile
+- [x] **MOB-01**: Hero funciona corretamente no mobile (parallax degradado para fixed ou scroll normal)
+- [x] **MOB-02**: Grid de produtos adaptado para 1-2 colunas no mobile
 - [ ] **MOB-03**: Navegação mobile com menu hambúrguer funcional
 - [ ] **MOB-04**: Formulário de contato usável no mobile
-- [ ] **MOB-05**: Textos legíveis sem zoom no mobile (font-size mínimo adequado)
+- [x] **MOB-05**: Textos legíveis sem zoom no mobile (font-size mínimo adequado)
 
 ## v2 Requirements
 
@@ -81,11 +81,11 @@
 | TIP-01 | Phase 3 | Complete |
 | TIP-02 | Phase 3 | Complete |
 | TIP-03 | Phase 3 | Complete |
-| MOB-01 | Phase 3 | Pending |
-| MOB-02 | Phase 3 | Pending |
+| MOB-01 | Phase 3 | Complete |
+| MOB-02 | Phase 3 | Complete |
 | MOB-03 | Phase 3 | Pending |
 | MOB-04 | Phase 3 | Pending |
-| MOB-05 | Phase 3 | Pending |
+| MOB-05 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 20 total
